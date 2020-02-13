@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#238AE4</color>
+    <color name="colorPrimaryDark">#0984E4</color>
+    <color name="colorAccent">#478FDD</color>
+
+    <color name="blue">#3E9DD7</color>
+    <color name="blue_hover">#453E9DD7</color>
+    <color name="white">#ffffff</color>
+    <color name="ltst_grey">#F1F1F1</color>
+    <color name="txt_color">#303030</color>
+    <color name="separator">#b4b1b1</color>
+    <color name="black">#000000</color>
+
+</resources>

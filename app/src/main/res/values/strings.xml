@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <string name="This_app_needs_permission">This app needs permissions.</string>
+
+    <string name="This_app_needs_device_location_permission">This app needs device location permission.</string>
+    <string name="Ok">Ok</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="No_internet_connection">No internet connection.</string>
+    <string name="Retry">Retry</string>
+    <string name="Something_problem">Something problem, please retry again.</string>
+
+</resources>

@@ -1,0 +1,100 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoActionBarAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--Text Style-->
+    <style name="TextWrap" parent="Theme.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="text_wrap12" parent="TextWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="text_wrap14" parent="TextWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <style name="text_wrap16" parent="TextWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="text_wrap18" parent="TextWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_18</item>
+    </style>
+
+    <style name="text_wrap20" parent="TextWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_20</item>
+    </style>
+
+    <style name="text_wrap22" parent="TextWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_22</item>
+    </style>
+
+
+
+    <!-- Button style-->
+    <!--<item name="android:minWidth">0dp</item>
+    <item name="android:minHeight">0dp</item>-->
+    <style name="ButtonWrap" style="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+    </style>
+
+
+    <style name="btn_wrap12" parent="ButtonWrap">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="btn_wrap14" parent="ButtonWrap">
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <style name="btn_wrap16" parent="ButtonWrap">
+
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="btn_wrap18" parent="ButtonWrap">
+        <item name="android:textSize">@dimen/text_18</item>
+    </style>
+
+    <style name="btn_wrap20" parent="ButtonWrap">
+        <item name="android:textSize">@dimen/text_20</item>
+    </style>
+
+    <style name="btn_wrap22" parent="Theme.AppCompat">
+        <item name="android:textSize">@dimen/text_22</item>
+    </style>
+
+
+
+</resources>

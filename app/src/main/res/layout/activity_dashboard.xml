@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.weatherapp.activity.dashboard.DashboardViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:id="@+id/rl_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/rv_weather"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_city_name"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/sf_pro_regular"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_14" />
+
+                <ImageView
+                    android:id="@+id/iv_weather"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_below="@+id/tv_city_name" />
+
+                <TextView
+                    android:id="@+id/tv_today_temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_weather"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/sf_pro_regular"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="@dimen/text_14" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_weather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"></androidx.recyclerview.widget.RecyclerView>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_retry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_retry_msg"
+                style="@style/text_wrap14"
+                android:gravity="center"
+                android:padding="40dp"
+                android:text="@string/Something_problem" />
+
+            <Button
+                style="@style/btn_wrap14"
+                android:layout_width="250dp"
+
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_retry_button"
+                android:gravity="center"
+                android:onClick="@{()->viewModel.retryClick()}"
+                android:text="@string/Retry"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</layout>
